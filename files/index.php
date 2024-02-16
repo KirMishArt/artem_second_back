@@ -11,6 +11,7 @@ print_r($_POST);
 
 // Hello World
 print('Привет, мир!');
+print($xml);
 
 // Чтобы получить в переменную данные из сущности запроса.
 $xml = file_get_contents('php://input');
